@@ -315,6 +315,81 @@ nav {
     background-color: #ffa500;
 }
 
+/**************************************************************
+  SOLAR KITS SECTION
+**************************************************************/
+.solar-kits {
+  width: 100%;
+  padding: 3rem 150px; 
+  background-color: #fff;
+  text-align: center;
+}
+
+.solar-kits h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.solar-kits p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.kits-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+/* Each Card */
+.kit-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.kit-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kit-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.kit-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.kit-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+
+.view-products {
+  color: #0b9586;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.view-products:hover {
+  text-decoration: underline;
+}
+
+
 
   
  
@@ -400,5 +475,16 @@ nav {
     max-width: 100%;
 }
 
+.solar-kits {
+  padding: 2rem 1rem;
+}
+
+.solar-kits h2 {
+  font-size: 1.75rem;
+}
+
+.kits-container {
+  grid-template-columns: 1fr; /* Stack cards in one column */
+}
   
 }
