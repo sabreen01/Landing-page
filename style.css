@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-/* إعادة ضبط أساسية */
+
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +86,7 @@ nav {
 **************************************************************/
 .hero-section {
   width: 100%;
-  min-height: 80vh; 
+  min-height: 90vh; 
   background: url("./images/solar-panels-meadow 1.png") no-repeat center/cover ;
   background-repeat: no-repeat;
   
@@ -263,6 +263,59 @@ nav {
     align-self: flex-start;
     padding-left: 20px;
   }
+/**************************************************************
+  contactUs 
+***************************************************************/
+
+
+
+
+.sustainable-energy {
+    background:url("./images/8116\ 1.png") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 150px;
+    min-height: 65vh;
+
+}
+
+.sustainable-content {
+    flex: 1;
+    color: white;
+    max-width: 600px;
+}
+
+.sustainable-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sustainable-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+
+.cta-btn {
+    background-color: #ffbb1c;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ffa500;
+}
+
+
   
  
 
@@ -336,6 +389,16 @@ nav {
     width: 150px;
     height: 120px;
   }
+
+  .sustainable-energy {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.sustainable-content {
+    max-width: 100%;
+}
 
   
 }
